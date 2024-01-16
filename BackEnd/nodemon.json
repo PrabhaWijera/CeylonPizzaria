@@ -1,0 +1,5 @@
+{
+    "wait":["src"],
+    "ext":".js ,.ts",
+    "exec":"ts-node ./src/index.ts"
+}

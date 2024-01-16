@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .pizza-box {
+    background: linear-gradient(45deg, #EA5455, #F99417, #FE0000, #F99417);
+    background-size: 400% 400%;
+    animation: gradientAnimation 8s ease infinite;
+  }
+  
